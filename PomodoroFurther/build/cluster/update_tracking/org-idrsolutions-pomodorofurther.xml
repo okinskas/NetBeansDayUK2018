@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.idrsolutions.pomodorofurther">
+    <module_version install_time="1524814303494" last="true" origin="installer" specification_version="1.0">
+        <file crc="601758758" name="config/Modules/org-idrsolutions-pomodorofurther.xml"/>
+        <file crc="3509017891" name="modules/org-idrsolutions-pomodorofurther.jar"/>
+    </module_version>
+</module>

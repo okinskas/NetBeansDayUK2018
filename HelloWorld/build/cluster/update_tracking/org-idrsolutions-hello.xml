@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.idrsolutions.hello">
+    <module_version install_time="1524781200641" last="true" origin="installer" specification_version="1.0">
+        <file crc="2985372596" name="config/Modules/org-idrsolutions-hello.xml"/>
+        <file crc="1290076532" name="modules/org-idrsolutions-hello.jar"/>
+    </module_version>
+</module>

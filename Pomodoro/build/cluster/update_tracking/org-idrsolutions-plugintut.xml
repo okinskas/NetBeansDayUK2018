@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.idrsolutions.plugintut">
+    <module_version install_time="1524781479954" last="true" origin="installer" specification_version="1.0">
+        <file crc="290632140" name="config/Modules/org-idrsolutions-plugintut.xml"/>
+        <file crc="2975215731" name="modules/org-idrsolutions-plugintut.jar"/>
+    </module_version>
+</module>

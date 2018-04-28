@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_idrsolutions_pomodorofurther">
+                <file name="PomodoroFurther" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.idrsolutions.pomodorofurther//PomodoroFurther//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="idrsolutions">
+                    <folder name="pomodorofurther">
+                        <file name="PomodoroFurtherTopComponent">
+                            <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_idrsolutions_pomodorofurther/PomodoroFurther.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_idrsolutions_pomodorofurther">
+                <file name="PomodoroFurther.instance">
+                    <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-idrsolutions-pomodorofurther-PomodoroAction.instance">
+                <!--org.idrsolutions.pomodorofurther.PomodoroAction-->
+                <attr
+                    bundlevalue="org.idrsolutions.pomodorofurther.Bundle#CTL_PomodoroAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.idrsolutions.pomodorofurther.PomodoroAction"/>
+                <attr name="iconBase" stringvalue="org/idrsolutions/pomodorofurther/clock.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-idrsolutions-pomodorofurther-PomodoroFurtherTopComponent.instance">
+                <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent"/>
+                <attr name="preferredID" stringvalue="PomodoroFurtherTopComponent"/>
+                <attr
+                    bundlevalue="org.idrsolutions.pomodorofurther.Bundle#CTL_PomodoroFurtherAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="org-idrsolutions-pomodorofurther-PomodoroAction.shadow">
+                <!--org.idrsolutions.pomodorofurther.PomodoroAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-idrsolutions-pomodorofurther-PomodoroAction.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="org-idrsolutions-pomodorofurther-PomodoroAction-separatorAfter.instance">
+                <!--org.idrsolutions.pomodorofurther.PomodoroAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="50" name="position"/>
+            </file>
+            <file name="org-idrsolutions-pomodorofurther-PomodoroAction-separatorBefore.instance">
+                <!--org.idrsolutions.pomodorofurther.PomodoroAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="-50" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-idrsolutions-pomodorofurther-PomodoroFurtherTopComponent.shadow">
+                <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-idrsolutions-pomodorofurther-PomodoroFurtherTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="org-idrsolutions-pomodorofurther-PomodoroAction.shadow">
+                <!--org.idrsolutions.pomodorofurther.PomodoroAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-idrsolutions-pomodorofurther-PomodoroAction.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PomodoroFurtherTopComponent.settings">
+                <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="PomodoroFurtherTopComponent.wstcref">
+                    <!--org.idrsolutions.pomodorofurther.PomodoroFurtherTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PomodoroFurtherTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

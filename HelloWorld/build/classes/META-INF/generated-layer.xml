@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_idrsolutions_hello">
+                <file name="Hello" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.idrsolutions.hello.HelloTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.idrsolutions.hello//Hello//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="idrsolutions">
+                    <folder name="hello">
+                        <file name="HelloTopComponent">
+                            <!--org.idrsolutions.hello.HelloTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_idrsolutions_hello/Hello.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_idrsolutions_hello">
+                <file name="Hello.instance">
+                    <!--org.idrsolutions.hello.HelloTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.idrsolutions.hello.HelloTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.idrsolutions.hello.HelloTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-idrsolutions-hello-HelloAction.instance">
+                <!--org.idrsolutions.hello.HelloAction-->
+                <attr
+                    bundlevalue="org.idrsolutions.hello.Bundle#CTL_HelloAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.idrsolutions.hello.HelloAction"/>
+                <attr name="iconBase" stringvalue="org/idrsolutions/hello/clock.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-idrsolutions-hello-HelloTopComponent.instance">
+                <!--org.idrsolutions.hello.HelloTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.idrsolutions.hello.HelloTopComponent"/>
+                <attr name="preferredID" stringvalue="HelloTopComponent"/>
+                <attr
+                    bundlevalue="org.idrsolutions.hello.Bundle#CTL_HelloWindowAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="org-idrsolutions-hello-HelloAction.shadow">
+                <!--org.idrsolutions.hello.HelloAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-idrsolutions-hello-HelloAction.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="org-idrsolutions-hello-HelloAction-separatorAfter.instance">
+                <!--org.idrsolutions.hello.HelloAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="50" name="position"/>
+            </file>
+            <file name="org-idrsolutions-hello-HelloAction-separatorBefore.instance">
+                <!--org.idrsolutions.hello.HelloAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="-50" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-idrsolutions-hello-HelloTopComponent.shadow">
+                <!--org.idrsolutions.hello.HelloTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-idrsolutions-hello-HelloTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="org-idrsolutions-hello-HelloAction.shadow">
+                <!--org.idrsolutions.hello.HelloAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-idrsolutions-hello-HelloAction.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="HelloTopComponent.settings">
+                <!--org.idrsolutions.hello.HelloTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.idrsolutions.hello.HelloTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="HelloTopComponent.wstcref">
+                    <!--org.idrsolutions.hello.HelloTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="HelloTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
